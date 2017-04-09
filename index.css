@@ -8,9 +8,10 @@ ul {
 .wrap {
     width: 1100px;
     margin: 0 auto;
+
 }
 #header {
-    background: red;
+    /*background: pink;*/
     height: 100px;
     position:relative;
 }
@@ -18,30 +19,477 @@ ul {
     padding: 10px 0px 10px 20px;
     width: 245px;
     height: 75px;
-    background: yellow;
+    /*background: yellow;*/
     float: left;
 }
 
 .kuang {
     width: 212px;
     height: 30px;
-    border: none;
+    border: 0;
     outline: none;
     text-indent: 10px;
 }
 .jian {
     width: 50px;
     height: 30px;
-    border: none;
+    border: 0;
     outline: none;
     cursor: pointer;
+    background: red;
+    color: white;
 }
 .serach {
     width: 262px;
+    height: 30px;
     position: absolute;
     top: 50%;
     margin-top: -15px;
     left: 50%;
-    margin-left: -131px;
+    margin-left: -50px;
+    border:1px solid red;
+    z-index: 99;
 
+}
+.serach-line {
+    width: 212px;
+    height: 80px;
+    border: 1px solid red;
+    list-style: none;
+    position: relative;
+    left: -1px;
+    background: white;
+    display: none;
+}
+.serach-line li {
+
+    height: 20px;
+    border-bottom:1px solid red;
+}
+#last {
+    border: none;
+}
+.share {
+    width: 230px;
+    height: 30px;
+    /*background: green;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 130px;
+}
+.sj {
+    list-style: none;
+}
+.sj li {
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    float: left;
+    /*background: orange;*/
+}
+.qq {
+    background: url("photo/top_qq.jpg") no-repeat 28px 0;
+}
+.wb {
+    background: url("photo/top_weib.jpg") no-repeat 28px 0;
+}
+.xx {
+    background: url("photo/top_you.jpg") no-repeat 28px 0;
+}
+.qq:hover {
+    background: url("photo/top_qq_h.png") no-repeat 28px 0;
+}
+.wb:hover {
+    background: url("photo/top_weib_h.png") no-repeat 28px 0;
+}
+.xx:hover {
+    background: url("photo/top_you_h.png") no-repeat 28px 0;
+}
+.banner {
+    height: 50px;
+    background: #EB3939;
+
+}
+.a {
+    background: #A61C00;
+}
+.sousuo {
+    height: 50px;
+    width: 1080px;
+    list-style: none;
+    margin-left: 20px;
+    position: relative;
+    z-index: 0;
+}
+.sousuo li {
+    height: 50px;
+    width: 135px;
+    float: left;
+
+}
+.sousuo  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+    text-indent: 40px;
+
+}
+.sousuo  a:hover{
+    background: #A61C00;
+
+}
+.tupian {
+    height: 390px;
+    background: url("photo.jpg") no-repeat;
+}
+.big {
+    width: 1100px;
+    height:531px;
+    /*background: red;*/
+    margin: 0 auto;
+
+}
+.up {
+    width: 1100px;
+    height: 174px;
+    /*background: blue;*/
+    margin-top: 20px;
+}
+.lnews {
+    width: 334px;
+    height: 174px;
+    /*background:yellow;*/
+    float: left;
+    margin-right: 20px;
+}
+.dingbu {
+    width: 334px;
+    height: 23px;
+    text-indent: 20px;
+    background: url("photo/xw_1.png")no-repeat 2px 2px;
+    border-bottom:2px solid red;
+}
+.hh {
+    color: #EA3939;
+    font-size: 15px;
+
+}
+.hhh {
+    float: right;
+    margin-right: 10px;
+}
+.hhh a {
+     text-decoration: none;
+ }
+.hhh a:hover {
+    color: red;
+}
+.date {
+    line-height: 29px;
+    float: right;
+    margin-right: 5px;
+}
+.xinwen {
+    list-style: none;
+}
+.xinwen li {
+    height:29px;
+    width: 334px;
+    border-bottom: 1px dotted grey;
+    background: url("photo/article_arrow.gif") no-repeat 10px center;
+    text-indent: 20px;
+}
+.xinwen li a{
+
+    line-height: 29px;
+    text-decoration: none;
+}
+.rnews {
+    width: 334px;
+    height: 174px;
+    /*background:green;*/
+    float: left;
+}
+.dingbu1 {
+    width: 334px;
+    height: 23px;
+    text-indent: 20px;
+    background: url("photo/xw_2.png")no-repeat 2px 2px;
+    border-bottom:2px solid black;
+}
+.hh1 {
+    color: black;
+    font-size: 15px;
+
+}
+.hhh1 {
+    float: right;
+    margin-right: 10px;
+}
+.hhh1 a {
+    text-decoration: none;
+}
+.hhh1 a:hover {
+    color: red;
+}
+.sanb {
+    width: 340px;
+    height: 171px;
+    /*background: green;*/
+    float: right;
+
+
+}.sanb a {
+     color: red;
+    text-decoration: none;
+ }
+.t1 {
+
+    width: 100px;
+    height: 171px;
+    margin-right: 20px;
+    background:  url("photo/sy_tz_1.jpg") no-repeat;;
+    float: left;
+    padding-top: 125px;
+    text-align: center;
+}
+.t2 {
+    width: 100px;
+    height: 171px;
+    margin-right: 20px;
+    /*background: yellow;*/
+    float: left;
+    background: url("photo/sy_tz_2.jpg") no-repeat;
+    padding-top: 125px;
+    text-align: center;
+}
+.t3 {
+    float: left;
+    width: 100px;
+    height: 171px;
+    /*background: red;*/
+    background: url("photo/sy_tz_3.jpg") no-repeat;
+    padding-top: 125px;
+    text-align: center;
+
+}
+.t1:hover {
+    background: url("photo/sy_tz_1_h.jpg")no-repeat;
+}
+.t2:hover {
+    background: url("photo/sy_tz_2_h.jpg")no-repeat;
+}
+.t3:hover {
+    background: url("photo/sy_tz_3_h.jpg")no-repeat;
+}
+.zi {
+    width: 100px;
+    height: 21px;
+    color: #826682;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.down {
+    margin-top: 5px;
+    width:1100px;
+    height: 415px;
+    /*background: blue;*/
+}
+.about {
+    width: 298px;
+    height: 315px;
+    /*background: yellow;*/
+    float: left;
+    margin-right: 10px;
+}
+.xq {
+    float: left;
+    width: 236px;
+    background: url("photo/yw_t.png") no-repeat 80px 160px #F1F1F1;
+    height: 275px;
+    padding: 20px;
+    /*text-align: left;*/
+}
+
+.phone {
+    width: 505px;
+    height: 153px;
+    /*background: pink;*/
+    float: right;
+    margin-bottom: 10px;
+    background: url("photo/call_t.png") no-repeat 0 10px #F5F5F5;
+}
+.zp {
+    width: 505px;
+    height: 153px;
+    /*background: orange;*/
+    float: right;
+    line-height: 30px;
+    background: url("photo/zp_t.png")no-repeat #F5F5F5;
+}
+.ff {
+    width: 298px;
+    height: 135px;
+    background: url("3.jpg")no-repeat center;
+}
+.wz {
+    padding: 20px 10px 10px 10px;
+    border: 1px #CCCCCC solid;
+    width: 276px;
+    height: 150px;
+    color: #5A5A5A;
+
+}
+.yw {
+    color: #EA3939;
+}
+.nr {
+    font-size: 13px;
+    color: #000000;
+    line-height: 30px;
+}
+.ck {
+    color: #EA3939;
+}
+.lxfs li{
+    list-style: none;
+    width: 265px;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.rc {
+    text-indent: 180px;
+}
+.hy {
+    font-size: 12px;
+    margin-left: 180px;
+
+}
+.ckxq {
+    text-indent: 180px;
+
+}
+.ckxq a{
+    text-decoration: none;
+    color: #EA3939;
+}
+.footer {
+    width: 1349px;
+    height: 180px;
+    background: #666666;
+    position:relative;
+}
+.shang {
+    width: 1100px;
+    height: 134px;
+    /*background: yellow;*/
+}
+.dl {
+    margin-top: 20px;
+    width: 500px;
+    height: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bq {
+    width: 500px;
+    height: 25px;
+    margin-left: 100px;
+   padding-top: 40px;
+    float: left;
+}
+.ewm {
+    width: 350px;
+    height: 134px;
+    /*background: red;*/
+    float: right;
+    margin-right: 80px;
+}
+#erw {
+    margin-top: 30px;
+    float: left;
+}
+.sm {
+    float: right;
+    font-size: 14px;
+    margin-top: 50px;
+    color: white;
+}
+.zf {
+    width: 214px;
+    height: 35px;
+    float: right;
+    /*background: blue;*/
+    margin-top: 20px;
+}
+.zf a {
+    margin-right: 30px;
+    float: left;
+    display: block;
+    width: 37px;
+    height: 35px;
+    /*background: orange;*/
+}
+.p1 {
+    background: url("photo/db_qq.jpg") no-repeat ;
+}
+.p1:hover {
+    background: url("photo/db_qq_h.jpg") no-repeat ;
+}
+.p2 {
+    background: url("photo/db_wb.jpg") no-repeat ;
+}
+.p2:hover {
+    background: url("photo/db_wb_h.jpg") no-repeat ;
+}
+.p3 {
+    background: url("photo/db_yx.jpg") no-repeat ;
+}
+.p3:hover {
+    background: url("photo/db_yx_h.jpg") no-repeat ;
+}
+.shu {
+    width: 40px;
+    height: 150px;
+    background: #EA3939;
+    position: absolute;
+    top: -20px;
+}
+.ct {
+    width: 1100px;
+    height: 42px;
+    /*background: blue;*/
+    float: left;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    position:relative;
+
+}
+.ct a {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+.ss {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: 50%;
+    margin-left: -263px;
+}
+
+.dibu {
+    height: 31px;
+    background: green;
 }
