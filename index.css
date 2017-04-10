@@ -296,7 +296,7 @@ ul {
     margin-top: 10px;
 }
 .down {
-    margin-top: 5px;
+    margin-top: 15px;
     width:1100px;
     height: 415px;
     /*background: blue;*/
@@ -463,6 +463,11 @@ ul {
     background: #EA3939;
     position: absolute;
     top: -20px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
 }
 .ct {
     width: 1100px;
@@ -491,5 +496,14 @@ ul {
 
 .dibu {
     height: 31px;
-    background: green;
+    background: white;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    line-height: 31px;
+}
+.dibu a {
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
 }
