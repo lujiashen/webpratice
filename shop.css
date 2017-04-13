@@ -1,13 +1,17 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style: none;
 }
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+}
 .header {
     width: 1349px;
-    height: 720px;
+    height: 600px;
     background: url("images/banner.jpg") no-repeat -100px 0;
 
 }
@@ -19,13 +23,13 @@ ul {
     position:relative;
 }
 .dl {
-    width: 28px;
+    display: inline-block;
     color: #fff;
     font-size: 14px;
-    font-weight: 600;
-    line-height: 100px;
     text-decoration: none;
-    padding: 0 8px;
+    margin-top: 40px;
+    /*padding: 0 8px;*/
+    margin-left: 8px;
 }.dl:hover {
      color: #fff;
      font-size: 14px;
@@ -40,7 +44,7 @@ ul {
  }
  .lo {
      position:absolute;
-    top: 50%;
+     top: 50%;
      margin-top: -19px;
      left: 50%;
      margin-left: -147px;
@@ -50,20 +54,20 @@ ul {
     width: 262px;
     height: 62px;
     float: right;
-    margin: 28px 0px 10px 0px;
+    margin: 28px 0 10px 0;
     text-align: center ;
     font-size: 14px;
 }
 .zz {
-
     /*font-size: 14px;*/
     background: rgba(55, 55, 55, 1);
-    padding: 10px 10px;
     color: #fff;
     opacity: 0.8;
+    padding: 10px 10px;
 
 }
-.wei a {
+.aa {
+
 
     display: block;
     width: 100%;
@@ -72,11 +76,161 @@ ul {
     text-decoration: none;
 }
 .gwc {
-
+    vertical-align: middle;                  //给img垂直方向居中  /*默认时字体与图片最底部对齐*/
     margin-left: 12px;
 
 }
 .clear {
-    margin-top: -15px;
 
+    width: 70px;
+    height: 20px;
+    margin: 0 auto;
+}
+.clear a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+                                /*header end*/
+.serach {
+    width: 1140px;
+    height: 40px;
+    margin: 0 auto;
+}
+.serach-line {
+    width: 1124px;
+    height: 40px;
+    background: #fa558f;
+
+}
+
+.lii {
+    width: 190px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+#one {
+      text-align: center;
+      line-height: 40px;
+      width: 158px;
+      height:40px;
+      background: #3C3B3B;
+      float: left;
+
+  }
+#six {
+    text-align: center;
+    line-height: 40px;
+    width: 206px;
+    height: 40px;
+    float: left;
+}
+.serach-line a {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display:block;
+    text-decoration: none;
+}
+.serach-line li:hover {
+    background: #3C3B3B;
+}
+
+   /*serach end*/
+
+.cate {
+    /*width :1140px;*/
+    height:210px;
+    /*margin: 0 auto;*/
+    margin-top: 50px;
+}
+.q1 {
+    background: url("images/bg1.jpg")no-repeat ;
+}
+.q2 {
+    background: url("images/bg2.jpg")no-repeat;
+}
+.q3 {
+    background: url("images/bg3.jpg")no-repeat;
+}
+.q1 , .q2 , .q3 {
+    position: relative;
+    width: 364px;
+    height: 210px;
+    margin-right: 20px;
+    float: left;
+}
+.tupian h4 {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+/* ... end*/
+
+.chushou {
+    width: 1140px;
+    height: 1000px;
+    /*background: yellow;*/
+
+
+}
+.shangpin {
+    width: 340px;
+    height: 438px;
+    border:1px dotted grey ;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.chungao {
+    width: 340px;
+    height: 247px;
+}
+.chungao img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.chunjieshao {
+    height: 40px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-indent: 10px;
+    margin-top: 10px;
+}
+.money1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.7em;
+    text-indent: 10px;
+}
+.shuru1 {
+    width: 200px;
+    height: 30px;
+    text-indent: 10px;
+}
+.lan1 {
+    text-indent: 10px;
+    margin-top: 10px;
+}
+.anniu1 {
+    color: #fff;
+    width: 140px;
+    height: 42px;
+    background: #ef8743;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
 }
