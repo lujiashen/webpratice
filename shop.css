@@ -22,15 +22,24 @@ ul {
     margin: 0 auto;
     position:relative;
 }
+.dll {
+    height: 16px;
+    width: 28px;
+    line-height: 100px;
+    /*margin-left: 8px;*/
+    padding: 0 8px;
+}
 .dl {
-    display: inline-block;
+    /*display: inline-block;*/
     color: #fff;
     font-size: 14px;
     text-decoration: none;
-    margin-top: 40px;
-    /*padding: 0 8px;*/
-    margin-left: 8px;
-}.dl:hover {
+    /*margin-top: 40px;*/
+
+    /*margin-left: 8px;*/
+}
+.dl:hover {
+
      color: #fff;
      font-size: 14px;
     border-bottom: 1px solid white;
@@ -52,7 +61,7 @@ ul {
 .wei {
     /*position: relative;*/
     width: 262px;
-    height: 62px;
+    height: 24px;
     float: right;
     margin: 28px 0 10px 0;
     text-align: center ;
@@ -135,10 +144,99 @@ ul {
     display:block;
     text-decoration: none;
 }
-.serach-line li:hover {
+.serach-line >li:hover {
     background: #3C3B3B;
 }
+.sum {
+    width: 1140px;
+    height: 300px;
+    background:white;
+    margin-left: -157px;
+    display: none;
+}
 
+.tit1 {
+    width: 190px;
+    height: 50px;
+    /*background: yellow;*/
+    margin-left: 15px;
+    border-bottom: 1px solid slategrey;
+    /*text-align: left;*/
+
+}
+.bq1 a {
+    color: grey;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bq1 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.sum2 {
+    float: left;
+}
+.bq2 a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bq2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.sum3 {
+    float: left;
+}
+.bq3 a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bq3 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.sum4 {
+    float: left;
+}
+.bq4 a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bq4 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.sum5 {
+    float: left;
+}
+.bq5 a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bq5 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+.sum1 {
+    width: 190px;
+    height: 300px;
+    float: left;
+    margin-right: 15px;
+}
    /*serach end*/
 
 .cate {
@@ -195,6 +293,7 @@ ul {
 .chungao {
     width: 340px;
     height: 247px;
+
 }
 .chungao img {
     width: 247px;
@@ -234,3 +333,245 @@ ul {
     margin-left: 10px;
     cursor: pointer;
 }
+.anniu1:hover {
+    background: #FF9000;
+}
+.xin {
+    text-decoration: none;
+    background: #fa558f;
+    padding: 5px 10px;
+    width: 21px;
+    height: 20px;
+    float: right;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+.kouhongbi {
+    width: 340px;
+    height: 247px;
+}
+.kouhongjieshao {
+    height: 40px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-indent: 10px;
+    margin-top: 10px;
+}
+.kouhongbi img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.kouhongbi {
+    width: 340px;
+    height: 247px;
+}
+.kouhongjieshao {
+    height: 40px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-indent: 10px;
+    margin-top: 10px;
+}
+.kouhongbi img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.ruanxinchungao img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.bbshuang img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.yanying img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.caihe img {
+    width: 247px;
+    height: 247px;
+    border:1px dotted grey ;
+}
+.footer {
+    width: 1349px;
+    height: 273px;
+    background: url("images/banner2.jpg")no-repeat;
+    -webkit-background-size: cover;        /*图片小于背景 用于整个铺满 cover*/
+    margin-top: 30px;
+    padding: 56px 0;
+}
+.conta {
+    width: 1170px;
+    height: 127px;
+}
+.two {
+    width: 1040px;
+    height: 112px;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+.u1 {
+    color: white;
+    float: left;
+}
+.u1 li {
+    width: 160px;
+    height: 28px;
+    padding-left: 30px;
+    line-height: 28px;
+    list-style: disc;
+    color: white;
+}
+.u2 {
+    color: white;
+    float: left;
+}
+.u2 li {
+    width: 160px;
+    height: 28px;
+    padding-left: 30px;
+    line-height: 28px;
+    list-style: disc;
+    color: white;
+}
+.u3 {
+    color: white;
+    float: left;
+}
+.u3 li {
+    width: 160px;
+    height: 28px;
+    padding-left: 30px;
+    line-height: 28px;
+    list-style: disc;
+    color: white;
+}
+.u4 {
+    color: white;
+    float: left;
+}
+.u4 li {
+    width: 160px;
+    height: 28px;
+    padding-left: 30px;
+    line-height: 28px;
+    list-style: disc;
+    color: white;
+}
+.u5 {
+    color: white;
+    float: left;
+}
+.u5 li {
+    width: 160px;
+    height: 28px;
+    padding-left: 30px;
+    line-height: 28px;
+    list-style: disc;
+    color: white;
+}
+.u1 a {
+    text-decoration: none;
+    color: #ccc;
+}
+.u2 a {
+    text-decoration: none;
+    color: #ccc;
+}
+.u3 a {
+    text-decoration: none;
+    color: #ccc;
+}
+.u4 a {
+    text-decoration: none;
+    color: #ccc;
+}
+.u5 a {
+    text-decoration: none;
+    color: #ccc;
+}
+.u1 a:hover {
+    text-decoration: none;
+    color:  #ccc;
+    border-bottom: 1px solid grey;
+}
+.u2 a:hover {
+    text-decoration: none;
+    color:  #ccc;
+    border-bottom: 1px solid grey;
+}
+.u3 a:hover {
+    text-decoration: none;
+    color:  #ccc;
+    border-bottom: 1px solid grey;
+}
+.u4 a:hover {
+    text-decoration: none;
+    color:  #ccc;
+    border-bottom: 1px solid grey;
+}
+.u5 a:hover {
+    text-decoration: none;
+    color:  #ccc;
+    border-bottom: 1px solid grey;
+}
+.footer_logo {
+    width: 1349px;
+    height: 34px;
+    background: #fa558f;
+    padding: 24px 0;
+}
+.footer_logo a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    /*margin-left: 100px;*/
+    width: 97px;
+    height: 24px;
+
+}
+.kuai {
+    width: 1140px;
+    height: 40px;
+}
+.footer_logo a:hover {
+    color: #3C3B3B;
+}
+.footer_logo p {
+    width: 293px;
+    height: 23px;
+    color: white;
+    float: right;
+    margin-top: 20px;
+}
+
+
+
+
+/*行高等于高可以让单行文字垂直居中*/
+/*缩小比例时 设置宽度 固定写死 这样不会掉下来
+*/
+
+
+/*流式布局 */
+
+/*标准盒模型 看宽度和高度是内容的宽和高*/
+
+/*overflow 溢出隐藏*/
+/*当两个兄弟关系的div同时又margin-top和margin-bottom 取大的
+*/
+
+/*父子关系时 给子元素设margin-top*/
+/*父元素会掉下来*/
