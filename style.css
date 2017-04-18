@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.header {
+    height: 76px;
+    position: relative;
+
+
+}
+.header img {
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+}
+.menu_box {
+    position: absolute;
+    width: 450px;
+    height: 36px;
+    top: 50%;
+    margin-top: -18px;
+    right: 5px;
+    padding-top: 15px;
+}
+.menu_box li {
+    width: 90px;
+    height: 36px;
+    list-style: none;
+    float: left;
+}
+.menu_box a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #434343;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.menu_box a:hover{
+    color: #A61C00;
+}
+
+
+.banner img{
+    max-width: 100%;
+}
+
+
+.neirong {
+
+    height: 152px;
+}
+.title {
+    width: 640px;
+    height: 35px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.title h3 {
+    width: 66px;
+    height: 28px;
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 35px;
+    float: left;
+}
+.title span {
+    width: 100px;
+    height: 30px;
+    /*float: right;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 5px;
+}
+.title a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    /*float: right;*/
+    line-height: 30px;
+}
+.news {
+    width: 640px;
+    height: 135px;
+    float: left;
+}
+.new1 , .new2 {
+    float: left;
+}
+.new1 li {
+    padding-left: 15px;
+    background: url("home-bg1.png") no-repeat left center;
+    width: 280px;
+    height: 30px;
+    list-style: none;
+
+
+}
+.new2 li {
+    padding-left: 15px;
+    background: url("home-bg1.png") no-repeat left center;
+    width: 280px;
+    height: 30px;
+    list-style: none;
+    font-size: 12px;
+    line-height: 30px;
+}
+.new1 li a {
+    word-wrap: break-word;
+    text-align: center;
+    font: 12px/1.8 Tahoma,Verdana,Arial,\5b8b\4f53;
+    color: #333;
+    text-decoration: none;
+
+}
+.new2 li a {
+    word-wrap: break-word;
+    text-align: center;
+    font: 12px/1.8 Tahoma,Verdana,Arial,\5b8b\4f53;
+    color: #333;
+    text-decoration: none;
+}
+.new1 li a:hover {
+     color: blue;
+ }
+.new2 li a:hover {
+    color: blue;
+}
+
+
+
+.kaike {
+    width: 400px;
+    height: 137px;
+    float: right;
+}
+.list_t {
+    width: 400px;
+    height: 35px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.list_t h3 {
+    float: left;
+    width: 66px;
+    height: 28px;
+    font-size: 16px;
+    margin-top: 6px;
+    line-height: 35px;
+
+}
+.list_t span {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 5px;
+
+}
+.list_t a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+}
+.kecheng {
+    width: 382px;
+    height: 92px;
+    border: 1px dotted grey;
+}
+.kecheng a{
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    width: 360px;
+    height: 28px;
+    text-align: center;
+    background: url("home-bg1.png") no-repeat left;
+    line-height: 28px;
+}
+
+
+
+.middle {
+    width: 1329px;
+    height: 450px;
+    background: #F5F5F5;
+    margin-top: 10px;
+}
+.ti {
+    width: 1100px;
+    height: 150px;
+    /*overflow:hidden;*/
+    padding: 10px;
+}
+.ti h2 {
+    text-align: center;
+    color: #666;
+    margin: 0px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+
+}
+.ti h5 {
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.tu li {
+    width: 219px;
+    height: 209px;
+    float: left;
+    list-style: none;
+}
+.tu a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+.tu span {
+    clear: both;
+    display: block;
+    width:194px;
+    height: 28px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.tu a:hover {
+    color: blue;
+}
+.yuanjiao {
+    width: 1100px;
+    height: 30px;
+    padding-top: 20px;
+    clear: both;
+}
+.yuanjiao a {
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+
+}
+.yuanjiao a:hover {
+    text-align: center;
+    line-height: 30px;
+    background: #70bf7d;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 25px;
+}
+
+.bottom {
+    width: 1329px;
+    height: 319px;
+    background: greenyellow;
+}
