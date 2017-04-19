@@ -249,6 +249,7 @@
     clear: both;
 }
 .yuanjiao a {
+    text-align: center;
     text-decoration: none;
     color: #333333;
     display: block;
@@ -271,4 +272,297 @@
     width: 1329px;
     height: 319px;
     background: greenyellow;
+    padding: 10px;
+}
+.youzhi {
+    width: 525px;
+    height: 324px;
+    margin: 0 auto;
+    /*background: yellow;*/
+}
+.youzhi span {
+    display: block;
+    float: left;
+}
+.s1 {
+    color: #333333;
+    width: 100px;
+    height: 35px;
+    background: white;
+    line-height: 35px;
+    text-align: center;
+}
+.s2 {
+    line-height: 35px;
+    width: 100px;
+    height: 35px;
+    background: #F1C232;
+    color: white;
+    text-align: center;
+}
+.shizi{
+    width: 200px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.youzhi h2 {
+    width: 525px;
+    height: 73px;
+    line-height: 73px;
+    text-align: center;
+    font-size: 35px;
+}
+.youzhi h3 {
+    width: 525px;
+    height: 40px;
+    padding-bottom: 15px;
+    line-height:55px ;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-size: 22px;
+}
+.youzhi h2 ,h3 {
+    color: white;
+    font-weight: bold;
+
+}
+.youzhi hr {
+    color: white;
+}
+.jieshao {
+    width: 525px;
+    height: 60px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: white;
+    line-height: 20px;
+}
+.liaojie {
+    width: 102px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.liaojie a {
+
+    text-decoration: none;
+    color: white;
+}
+.liaojie a:hover {
+    border-radius: 10px;
+    display: block;
+    width: 102px;
+    height: 27px;
+    border: #C90 1px solid;
+    text-decoration: none;
+    color: #333333;
+    background: white;
+}
+
+
+.wenti {
+    width: 1309px;
+    height: 371px;
+    padding: 20px;
+    background: #FEE157;
+}
+.left {
+    width: 675px;
+    height: 269px;
+    float: left;
+}
+.left h2 {
+    width: 470px;
+    height: 24px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    float: left;
+}
+.left >a {
+    width: 100px;
+    height: 25px;
+    display: block;
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+    color: #333333;
+    text-align: center;
+    line-height: 25px;
+}
+.left >a:hover {
+    width: 100px;
+    height: 25px;
+    text-decoration: none;
+    background: white;
+    border-radius: 10px;
+    color: #333;
+    text-align: center;
+    line-height: 25px;
+}
+.article {
+    width: 637px;
+    height: 172px;
+    padding: 20px;
+    border: 1px dotted black;
+    clear: both;
+}
+.article li {
+    background: url("Problem-bg.png")no-repeat left 15px;
+    width: 630px;
+    height: 25px;
+    padding: 8px 0 0 13px;
+    list-style: none;
+    line-height: 18px;
+    border-bottom: 1px dotted grey;
+}
+.article li a{
+    display: block;
+    width: 615px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #333333;
+}
+.article li a:hover{
+
+    display: block;
+    width: 615px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    color: blue;
+}
+.shiting {
+    width: 335px;
+    height: 356px;
+    float: left;
+    margin-left: 50px;
+}
+.shiting h2 {
+    width: 335px;
+    height: 32px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.xinxi {
+    width: 335px;
+    height: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px dotted grey;
+}
+.d1 ,.d3{
+    width: 335px;
+    height: 30px;
+    text-align: center;
+    /*margin-bottom: 5px;*/
+    line-height: 30px;
+}
+.xinxi span {
+    color: #ff0000;
+}
+.d2 {
+    width:262px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px dotted grey;
+}
+.d4 {
+    width: 335px;
+    height: 30px;
+    text-align: center;
+    /*margin-bottom: 5px;*/
+    line-height: 30px;
+}
+.d4 input {
+    margin-top: 13px;
+    width: 82px;
+    height: 24px;
+}
+button {
+    width: 80px;
+    height: 25px;
+    margin-top: 30px;
+    background: #666;
+    color: white;
+    border: none;
+}
+
+
+.footer {
+    padding: 15px 0px 20px 0px;
+    width: 1349px;
+    height: 100px;
+    background: #414B4A;
+    clear: both;
+}
+
+.l1 {
+    width: 70px;
+    height: 18px;
+    float: left;
+    list-style: none;
+
+}
+.l2 {
+    width: 40px;
+    height: 18px;
+    float: left;
+    list-style: none;
+
+}
+.footer li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.q1 {
+    width: 320px;
+    height: 27px;
+    margin: 0 auto;
+}
+.q2 {
+    clear: both;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 14px;
+}
+.q3 {
+    height: 33px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+.q3 a {
+    color: white;
+    text-decoration: none;
+    line-height: 33px;
+}
+
+.end {
+    width: 1339px;
+    height: 21px;
+    padding: 5px;
+    text-align: center;
+    line-height: 21px;
+}
+.end a {
+    color: black;
+    text-decoration: none;
+
+}
+.end a:hover {
+    color: red;
+    text-decoration: none;
+
 }
